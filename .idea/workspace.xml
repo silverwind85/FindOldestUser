@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b7e182d-ceed-4586-b382-dad6c1574813" name="Default" comment="" />
+    <list default="true" id="3b7e182d-ceed-4586-b382-dad6c1574813" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/find/old/user/FindOldUserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/find/old/user/FindOldUserTest.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -65,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindOldUserTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindOldUserTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/find/old/user/FindOldUserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+            <state relative-caret-position="988">
+              <caret line="52" column="44" lean-forward="false" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -78,8 +82,8 @@
       <file leaf-file-name="file.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/file.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="70" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="72" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -116,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenerateFileTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GenerateFileTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/find/old/user/GenerateFileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="806">
               <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,6 +141,9 @@
         <option value="JUnit4 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -429,8 +436,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/find/old/user/GenerateFile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/find/old/user/User.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/find/old/user/GenerateFileTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/find/old/user/FindOldUserTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/find/old/user/FindOldUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/find/old/user/FindOldUserTest.java" />
       </list>
     </option>
   </component>
@@ -446,6 +453,7 @@
     <option name="width" value="1938" />
     <option name="height" value="1048" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -475,6 +483,12 @@
               <item name="FindOldUser" type="b2602c69:ProjectViewProjectNode" />
               <item name="FindOldUser" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FindOldUser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FindOldUser" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FindOldUser" type="b2602c69:ProjectViewProjectNode" />
@@ -627,7 +641,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindOldUserTest.findOldestUser">
+  <component name="RunManager" selected="JUnit.GenerateFileTest">
     <configuration name="FindOldUserTest.findOldestUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -667,6 +681,31 @@
       <option name="MAIN_CLASS_NAME" value="com.find.old.user.FindOldUserTest" />
       <option name="METHOD_NAME" value="parseText" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="GenerateFileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.find.old.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="FindOldUser_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.find.old.user" />
+      <option name="MAIN_CLASS_NAME" value="com.find.old.user.GenerateFileTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -808,18 +847,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.GenerateFileTest.testgenerateText" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.GenerateFileTest.testGetGeneratePhoneNumber" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.FindOldUserTest.parseText" />
       <item index="3" class="java.lang.String" itemvalue="JUnit.FindOldUserTest.findOldestUser" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GenerateFileTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FindOldUserTest.findOldestUser" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FindOldUserTest.parseText" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GenerateFileTest.testgenerateText" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GenerateFileTest.testGetGeneratePhoneNumber" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GenerateFileTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FindOldUserTest.findOldestUser" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FindOldUserTest.parseText" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GenerateFileTest.testgenerateText" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GenerateFileTest.testGetGeneratePhoneNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -834,14 +875,11 @@
       <option name="presentableId" value="Default" />
       <updated>1520002171195</updated>
       <workItem from="1520002175704" duration="17064000" />
-      <workItem from="1520025901479" duration="3607000" />
+      <workItem from="1520025901479" duration="4741000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindOldUserTest_findOldestUser - 2018.03.02 at 23h 03m 10s.xml">
-      <configuration name="FindOldUserTest.findOldestUser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FindOldUserTest_findOldestUser - 2018.03.02 at 23h 07m 39s.xml">
       <configuration name="FindOldUserTest.findOldestUser" configurationId="JUnit" />
     </history-entry>
@@ -860,8 +898,11 @@
     <history-entry file="FindOldUserTest_findOldestUser - 2018.03.02 at 23h 23m 12s.xml">
       <configuration name="FindOldUserTest.findOldestUser" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FindOldUserTest_parseText - 2018.03.02 at 21h 00m 29s.xml">
-      <configuration name="FindOldUserTest.parseText" configurationId="JUnit" />
+    <history-entry file="FindOldUserTest_findOldestUser - 2018.03.02 at 23h 43m 54s.xml">
+      <configuration name="FindOldUserTest.findOldestUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindOldUserTest_findOldestUser - 2018.03.02 at 23h 44m 02s.xml">
+      <configuration name="FindOldUserTest.findOldestUser" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FindOldUserTest_parseText - 2018.03.02 at 23h 10m 08s.xml">
       <configuration name="FindOldUserTest.parseText" configurationId="JUnit" />
@@ -871,10 +912,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20671000" />
+    <option name="totallyTimeSpent" value="21805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -884,9 +926,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23469388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1107,24 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/file.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="70" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/find/old/user/GenerateFileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/find/old/user/GenerateFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
@@ -1147,11 +1171,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/file.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/find/old/user/FindOldUserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="988">
+          <caret line="52" column="44" lean-forward="false" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/find/old/user/GenerateFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
